@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    >
+
+    <LinearLayout
+        android:layout_weight="2.9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        >
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/ShayariOnEditPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_red"
+            android:fontFamily="@font/javatext"
+            android:elevation="5dp"
+            android:padding="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_weight="2.3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black">
+
+        <LinearLayout
+            android:layout_weight="1.1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_white"
+            android:layout_marginTop="2dp"
+            android:layout_marginHorizontal="100dp">
+
+            <ImageView
+                android:id="@+id/ExpandBackgroundOnEditPage"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/expand"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_margin="2dp"/>
+
+            <ImageView
+                android:id="@+id/ReloadBackgroundOnEditPage"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/reload"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_margin="2dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="10dp">
+
+            <Button
+                android:id="@+id/ButtonBackgroundOnEditPage"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Background"
+                android:textSize="8sp"
+                android:fontFamily="@font/javatext"
+                android:padding="0dp"
+                android:textAllCaps="false"
+                android:background="@color/red"
+                app:backgroundTint="@null"
+                app:cornerRadius="0dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="10dp"/>
+
+            <Button
+                android:id="@+id/ButtonTextColorOnEditPage"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Text Color"
+                android:textSize="8sp"
+                android:fontFamily="@font/javatext"
+                android:padding="0dp"
+                android:textAllCaps="false"
+                android:background="@color/red"
+                app:backgroundTint="@null"
+                app:cornerRadius="0dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="10dp"/>
+
+            <Button
+                android:id="@+id/ButtonShareOnEditPage"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Share"
+                android:textSize="8sp"
+                android:fontFamily="@font/javatext"
+                android:padding="0dp"
+                android:textAllCaps="false"
+                android:background="@color/red"
+                app:backgroundTint="@null"
+                app:cornerRadius="0dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="10dp">
+
+            <Button
+                android:id="@+id/ButtonFontOnEditPage"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Font"
+                android:textSize="8sp"
+                android:fontFamily="@font/javatext"
+                android:padding="0dp"
+                android:textAllCaps="false"
+                android:background="@color/red"
+                app:backgroundTint="@null"
+                app:cornerRadius="0dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="10dp"/>
+
+            <Button
+                android:id="@+id/ButtonEmojiOnEditPage"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Emoji"
+                android:textSize="8sp"
+                android:fontFamily="@font/javatext"
+                android:padding="0dp"
+                android:textAllCaps="false"
+                android:background="@color/red"
+                app:backgroundTint="@null"
+                app:cornerRadius="0dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="10dp"/>
+
+            <Button
+                android:id="@+id/ButtonTextSizeOnEditPage"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Text Size"
+                android:textSize="8sp"
+                android:fontFamily="@font/javatext"
+                android:padding="0dp"
+                android:textAllCaps="false"
+                android:background="@color/red"
+                app:backgroundTint="@null"
+                app:cornerRadius="0dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
