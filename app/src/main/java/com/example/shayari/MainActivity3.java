@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.GridView;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -77,20 +78,32 @@ public class MainActivity3 extends AppCompatActivity
             bottomSheetDialog.setContentView(view);
 
             GridView gridView = view.findViewById(R.id.BackgroundColorFile);
+            ImageView closeButton = view.findViewById(R.id.BackgroundColorCloseButton);
+
+            closeButton.setOnClickListener(view1 -> {
+
+                bottomSheetDialog.dismiss();
+
+            });
 
 
-/////////////=========>>>>>>>     Adapter For Back Color     <<<<<<<<<===============///////////////////////////////////////////
+/////////////=========>>>>>>>     Adapter For Background Color     <<<<<<<<<===============///////////////////////////////////////////
 
 
-            MainActivity3_Back_Color_Adapter backgroundColorAdapter = new MainActivity3_Back_Color_Adapter(this, Config.backgroundArray,"bg");
+            MainActivity3_Back_Color_Adapter backgroundColorAdapter = new MainActivity3_Back_Color_Adapter(
+                     this ,
+                            Config.backgroundArray ,
+                            "bg");
             gridView.setAdapter(backgroundColorAdapter);
 
-            gridView.setOnItemClickListener((parent, view1, position, id) -> {
+            gridView.setOnItemClickListener((adapterView, view1, i, l) ->  {
 
-                shayari.setBackgroundResource(Config.backgroundArray[position]);
-                emoji1.setBackgroundResource(Config.backgroundArray[position]);
-                emoji2.setBackgroundResource(Config.backgroundArray[position]);
+                shayari.setBackgroundResource(Config.backgroundArray[i]);
+                emoji1.setBackgroundResource(Config.backgroundArray[i]);
+                emoji2.setBackgroundResource(Config.backgroundArray[i]);
+
                 bottomSheetDialog.dismiss();
+
             });
 
             bottomSheetDialog.show();
@@ -161,7 +174,7 @@ public class MainActivity3 extends AppCompatActivity
 
             String shareBody = emoji1.getText().toString() + "\n" +
                                shayari.getText().toString() + "\n" +
-                               emoji2.getText().toString() + "\n/*Shared by myApp*/ ";
+                               emoji2.getText().toString() + "\n/*Shared by Shayari App*/ ";
 
             intent.setType("text/plain");
             intent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
