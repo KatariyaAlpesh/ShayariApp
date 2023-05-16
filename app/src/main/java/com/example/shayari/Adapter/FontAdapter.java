@@ -1,4 +1,4 @@
-package com.example.shayari;
+package com.example.shayari.Adapter;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -7,6 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+
+import com.example.shayari.Config;
+import com.example.shayari.R;
 
 public class FontAdapter extends BaseAdapter
 {

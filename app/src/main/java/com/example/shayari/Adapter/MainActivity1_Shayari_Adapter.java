@@ -1,4 +1,4 @@
-package com.example.shayari;
+package com.example.shayari.Adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -6,6 +6,9 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.shayari.MainActivity.MainActivity1;
+import com.example.shayari.R;
 
 public class MainActivity1_Shayari_Adapter extends BaseAdapter
 {

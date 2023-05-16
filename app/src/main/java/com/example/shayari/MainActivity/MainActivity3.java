@@ -1,4 +1,4 @@
-package com.example.shayari;
+package com.example.shayari.MainActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,11 +8,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.GridView;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.shayari.Config;
+import com.example.shayari.Adapter.MainActivity3_Back_Color_Adapter;
+import com.example.shayari.R;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 
 import java.util.Random;
@@ -184,7 +186,7 @@ public class MainActivity3 extends AppCompatActivity
 
         edit.setOnClickListener(v -> {
 
-            Intent intent3= new Intent(MainActivity3.this,MainActivity4.class);
+            Intent intent3= new Intent(MainActivity3.this, MainActivity4.class);
 
             intent3.putExtra("shayari",shayari.getText().toString());
             intent3.putExtra("emoji1",emoji1.getText().toString());

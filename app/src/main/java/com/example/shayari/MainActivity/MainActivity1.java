@@ -1,4 +1,4 @@
-package com.example.shayari;
+package com.example.shayari.MainActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -7,6 +7,10 @@ import android.Manifest;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ListView;
+
+import com.example.shayari.Config;
+import com.example.shayari.Adapter.MainActivity1_Shayari_Adapter;
+import com.example.shayari.R;
 
 public class MainActivity1 extends AppCompatActivity
 {

@@ -1,4 +1,4 @@
-package com.example.shayari;
+package com.example.shayari.MainActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,6 +20,11 @@ import android.widget.ListView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import com.example.shayari.Config;
+import com.example.shayari.Adapter.EmojiAdapter;
+import com.example.shayari.Adapter.FontAdapter;
+import com.example.shayari.Adapter.MainActivity3_Back_Color_Adapter;
+import com.example.shayari.R;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 
 import java.io.ByteArrayOutputStream;
