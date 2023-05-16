@@ -56,8 +56,3 @@ public class MainActivity1 extends AppCompatActivity
     }
 
 }
-
-// public static String[][] allShayariArray = { shubhakamanayeArray,dostiArray,majedarArray,
-//                                                bhagvanArray,preamArray,jivanArray,
-//                                                mohabbteinArray,yadeArray,anayaArray,
-//                                                rajnitiArray};
