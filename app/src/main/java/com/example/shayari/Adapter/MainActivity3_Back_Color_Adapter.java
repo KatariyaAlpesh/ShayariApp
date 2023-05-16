@@ -12,7 +12,7 @@ import com.example.shayari.R;
 public class MainActivity3_Back_Color_Adapter extends BaseAdapter
 {
 
-    Context context;     //////     Context
+    Context context;
     int[] backgroundArray;    //////    Color Background Array
     String str;   /////   bg , single
 
