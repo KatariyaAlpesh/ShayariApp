@@ -50,20 +50,5 @@ public class MainActivity2 extends AppCompatActivity
 
         });
 
-//        listView2.setOnItemClickListener(new AdapterView.OnItemClickListener()
-//        {
-//            @Override
-//            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l)
-//            {
-//
-//        Intent Inext;
-//        Inext = new Intent(MainActivity2.this , MainActivity3.class);
-//        Inext.putExtra("shayariPosition",i);
-//        Inext.putExtra("allshayariArray",Config.allShayariArray[shayariCategoryPosition]);
-//        finish();
-
-//            }
-//        });
-
     }
 }

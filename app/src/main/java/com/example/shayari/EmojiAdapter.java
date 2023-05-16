@@ -41,7 +41,7 @@ public class EmojiAdapter extends BaseAdapter
     @Override
     public View getView(int i, View view, ViewGroup viewGroup)
     {
-        view = LayoutInflater.from(context).inflate(R.layout.emoji_file , viewGroup , false);
+        view = LayoutInflater.from(context).inflate(R.layout.emoji_item_page , viewGroup , false);
 
         TextView textView = view.findViewById(R.id.EmojiItemText);
 

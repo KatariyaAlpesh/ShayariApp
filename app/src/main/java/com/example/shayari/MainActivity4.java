@@ -228,7 +228,7 @@ public class MainActivity4 extends AppCompatActivity
 
                 });
 
-                    close = view.findViewById(R.id.BackgroundColorCloseButton);
+                    close = view.findViewById(R.id.CloseEmojiButton);
                     close.setOnClickListener(v1 -> {
 
                         bottomSheetDialog.dismiss();
@@ -319,7 +319,7 @@ public class MainActivity4 extends AppCompatActivity
 
         buttonShareOnEditPage.setOnClickListener(v -> {
 
-            Intent intent = new Intent(android.content.Intent.ACTION_SEND);
+//            Intent intent = new Intent(android.content.Intent.ACTION_SEND);
 
 //            String shareBody = emoji1.getText().toString() + "\n" +
 //                    shayari.getText().toString() + "\n" +
@@ -328,8 +328,6 @@ public class MainActivity4 extends AppCompatActivity
 //            intent.setType("text/plain");
 //            intent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
 //            startActivity(Intent.createChooser(intent, "share"));
-
-
             Bitmap icon = getBitmapFromView(shayariOnEditPage);
 
             Intent share = new Intent(Intent.ACTION_SEND);

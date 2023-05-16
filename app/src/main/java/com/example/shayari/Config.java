@@ -14,224 +14,638 @@ public class Config
                                               //  "Bevafa Shayari" , "Janmdin Shayari" , "Holi Shayari"};
 
 
-//    public static String[] shubhakamanayeArray = {      };
+    public static String[] shubhakamanayeArray = {   "मत मुस्कुराओ इतना की फूलो को खबर लग जाये,\n" +
+                                                        "हम करें आपकी तारीफ और आपको नजर लग जाये\n" +
+                                                        "खुदा करे बहुत लम्बी हो आपकी जिंदगी ,\n" +
+                                                        "और उस पर भी हमारी उम्र लग जाये…" ,
 
-    public  static String[] attitudeArray = { "Chamak Yoon Hi Nahi Aati Hai Khuddari Ke Chehre Par,\n" +
-                                                "Anaa Ho Humne Do-Do Waqt Ka Faaka Karaya Hai.",
+                                                "बीते साल को विदा इस तरह करते है.\n" +
+                                                        "जो नहीं किया अब तक वो भी कर गुजरते है.\n" +
+                                                        "नया साल आने के खुशिया तो सब मानते है.\n" +
+                                                        "एक बार हम इते साल कि जस्न मानते है" ,
 
-                                                "Wo Manzil Hi Badnaseeb Thi Jo Humko Paa Na Saki,\n" +
-                                                        "Varna Jeet Ki Kya Aukaat Jo Humein Thhukra De.",
+                                                "हर पल मे खुशी देती है मा,\n" +
+                                                        "अपनी ज़िंदगी से जीवन देती है मा,\n" +
+                                                        "भगवान क्या है!!! मा की पूजा करो जनाब,\n" +
+                                                        "क्यूकी भगवान को भी जनम देती है मा…" ,
 
-                                                "Humari Istiqamat Se To Ye Duniya Bhi Waqif Hai,\n" +
-                                                        "Na Humne Manzilein Badalien Na Hum Ne Yaar Badle Hain.",
+                                                "बरसात आये तो ज़मीन गीली न हो,\n" +
+                                                        "धूप आये तो सरसों पीली न हो,\n" +
+                                                        "ए दोस्त तूने यह कैसे सोच लिया कि,\n" +
+                                                        "तेरी याद आये और पलकें गीली न हों।" ,
 
-                                                "Humne Duniya Mein Mohabbat Ka Asar Zinda Kiya Hai,\n" +
-                                                        "Humne Nafrat Ko Gale Mil-Mil Ke Sharminda Kiya Hai.",
+                                                "जा SMS जा मेरे sweetheart के पास,\n" +
+                                                        "धीरे से जाना शोर न मचाना,\n" +
+                                                        "busy हो तो चुप रहना\n" +
+                                                        "free हो तो आई मिस यू कहना .." ,
 
-                                                "Ai Fitrat Tu Kisi Ke Zarf Ko Itna Bhi Na Aazmaa,\n" +
-                                                        "Har Insaan Apni Hadd Mein Lajawaab Hi Hota Hai.",
+                                                "हम वो नहीं जो दिल तोड़ देंगे,\n" +
+                                                        "थाम कर हाथ साथ छोड़ देंगे,\n" +
+                                                        "हम दोस्ती करते हैं पानी और मछली की तरह,\n" +
+                                                        "जुदा करना चाहे कोई तो हम दम तोड़ देंगे …" ,
 
-                                                "Wo Manzil Hi Badnaseeb Thi Jo Humko Paa Na Saki,\n" +
-                                                        "Varna Jeet Ki Kya Aukaat Jo Humein Thhukra De.",
+                                                "दिल से निकली हे दुआ हमारी\n" +
+                                                        "जिन्दगी में मिले आपको खुशिया\n" +
+                                                        "गम न दे खुदा आपको कभी\n" +
+                                                        "चाहे तो एक ख़ुशी कम कर ले हमारी" ,
 
-                                                "Humari Istiqamat Se To Ye Duniya Bhi Waqif Hai,\n" +
-                                                        "Na Humne Manzilein Badalien Na Hum Ne Yaar Badle Hain.",
+                                                "लोग कहते हैं किसी एक के चले जाने से जिन्दगी अधूरी नहीं होती,\n" +
+                                                        "लेकिन लाखों के मिल जाने से उस एक की कमी पूरी नहीं होती है" ,
 
-                                                "Humne Duniya Mein Mohabbat Ka Asar Zinda Kiya Hai\n" +
-                                                        "Humne Nafrat Ko Gale Mil-Mil Ke Sharminda Kiya Hai.",
+                                                };
 
-                                                "Ai Fitrat Tu Kisi Ke Zarf Ko Itna Bhi Na Aazmaa\n" +
-                                                        "Har Insaan Apni Hadd Mein Lajawaab Hi Hota Hai." };
+    public static String[] dostiArray = { "तेरी मेरी दोस्ती इतनी खास हो,\n" +
+                                            "की दुनिया कहे काश ऐसा\n" +
+                                            "दोस्त मेरे पास हो।" ,
 
-    public  static String[] birthdayArray = { "Ho Puri Dil Ki Har Khwahish Aapke\n" +
-                                                "Aur Mile Khushiyon Ka Jahan Aapko\n" +
-                                                "Agar Aap Mange Aasma Ka Ek Tara\n" +
-                                                "To Khuda Dede Sara Aasma Aapko." +
-                                                "Happy Birthday My Dear.",
+                                            "रिश्तो से बड़ी कोई चाहत नही होती,\n" +
+                                                    "और दोस्ती से बड़ी कोई इबादत नही होती।" ,
 
-                                                "Duniya Ki Khushiyan Aapko Mil Jayein\n" +
-                                                        "Apno Se Mil Ke Aapka Man Khil Jaye\n" +
-                                                        "Chehre Par Dukh Ki Kabhi Shikan Na Ho\n" +
-                                                        "Aapke Birthday Par Meri ShubKamnayein.",
+                                            "सच्चे दोस्तो को\n" +
+                                                    "सुख दुख की पहचान होती है,\n" +
+                                                    "तभी तो जमाने में\n" +
+                                                    "दोस्ती महान होती है।" ,
 
-                                                "Aapke JanamDin Par Hum Dete Hain Ye Duaa\n" +
-                                                        "Khushiyaan Aapke Daaman Se Kabhi Na Hon Juda\n" +
-                                                        "Khuda Ki Rehmaton Mein Kabhi Kami Na Aaye\n" +
-                                                        "Aapke Honthho Ki Ye Muskurahat Na Jaaye." };
+                                            "हमारी दोस्ती एक-दूजे से ही पूरी है,\n" +
+                                                    "वरना रास्ते के बिना तो मंज़िल भी अधुरी है।" ,
 
-    public  static String[] heartArray = { "Le De Kar Wahi Hai Iss Shahar Mein Apna\n" +
-                                            "Duniya Kahin Usko Bhi Samajhdar Na Kar De.",
+                                            "ना कोई Ex है, ना कोई Next है,\n" +
+                                                    "ज़िन्दगी जीता हूं शान से\n" +
+                                                    "क्योंकि मेरे लिए तो मेरे दोस्त ही बेस्ट है।" ,
 
-                                            "Khwahish Toh Thi Milne Ki" +
-                                                    "Par Kabhi Koshish Nahi Ki\n" +
-                                                    "Socha Jab Khuda Mana Hai Usko" +
-                                                    "Toh Bin Dekhe Hi Poojenge." };
+                                            "बच्चे वसीयत पूछते है ,रिश्ते हैशियत पूछते है,\n" +
+                                                    "वो दोस्त ही है जो मेरी खैरियत पूछते है।" ,
 
-    public  static String[] friendshipArray = { "Chamak Yoon Hi Nahi Aati Hai Khuddari Ke Chehre Par,\n" +
-                                                "Anaa Ho Humne Do-Do Waqt Ka Faaka Karaya Hai.",
+                                            "अपनी जिंदगी के अलग असूल है,\n" +
+                                                    "यार\u202C\u202C की खातिर तो कांटे भी कबूल है।" ,
 
-                                                "Wo Manzil Hi Badnaseeb Thi Jo Humko Paa Na Saki,\n" +
-                                                        "Varna Jeet Ki Kya Aukaat Jo Humein Thhukra De.",
+                                            "प्यार और शोहरत सब तुझ पर कुर्बान है,\n" +
+                                                    "तू सिर्फ मेरा दोस्त नही है,\n" +
+                                                    "मेरे धड़कन की जान है।" ,
 
-                                                "Humari Istiqamat Se To Ye Duniya Bhi Waqif Hai,\n" +
-                                                        "Na Humne Manzilein Badalien Na Hum Ne Yaar Badle Hain.",
+                                            "मेरे यार तो बहुत अच्छे हैं,\n" +
+                                                    "दिल के बड़े सच्चे हैं,\n" +
+                                                    "अकल से थोड़ा कच्चे,\n" +
+                                                    "मगर दोस्ती निभाने में पक्के हैं।"
 
-                                                "Humne Duniya Mein Mohabbat Ka Asar Zinda Kiya Hai,\n" +
-                                                        "Humne Nafrat Ko Gale Mil-Mil Ke Sharminda Kiya Hai.",
+                                        };
 
-                                                "Ai Fitrat Tu Kisi Ke Zarf Ko Itna Bhi Na Aazmaa\n" +
-                                                        "Har Insaan Apni Hadd Mein Lajawaab Hi Hota Hai.",
+    public static String[] majedarArray = { "ऐ खुदा हिचकियों में कुछ तो फर्क डाला होता,\n" +
+                                                "\n" +
+                                                "अब कैसे पता करूँ कि\n" +
+                                                "\n" +
+                                                "कौनसी वाली याद कर रही है !" ,
 
-                                                "Wo Manzil Hi Badnaseeb Thi Jo Humko Paa Na Saki\n" +
-                                                        "Varna Jeet Ki Kya Aukaat Jo Humein Thhukra De.",
+                                                "मेरा दिल भी ले गयी मेरा चैन भी ले गयी,\n" +
+                                                        "\n" +
+                                                        "हद हो गयी तब जब मैंने देखा,\n" +
+                                                        "\n" +
+                                                        "वो मेरा पाँच रूपये का पेन भी ले गयी !" ,
 
-                                                "Humari Istiqamat Se To Ye Duniya Bhi Waqif Hai\n" +
-                                                        "Na Humne Manzilein Badalien Na Hum Ne Yaar Badle Hain.",
+                                                "ट्यूशन में उसकी सीट पर,\n" +
+                                                        "\n" +
+                                                        "चॉकलेट रख आया था,\n" +
+                                                        "\n" +
+                                                        "अगले दिन वो मेरी सीट पे पैसे रख गयी !" ,
 
-                                                "Humne Duniya Mein Mohabbat Ka Asar Zinda Kiya Hai\n" +
-                                                        "Humne Nafrat Ko Gale Mil-Mil Ke Sharminda Kiya Hai.",
+                                                "सीखा था Guitar जिसे पटाने के लिए\n" +
+                                                        "\n" +
+                                                        "अब आर्डर आया है,\n" +
+                                                        "\n" +
+                                                        "उसी की शादी में बजाने के लिए !" ,
 
-                                                "Ai Fitrat Tu Kisi Ke Zarf Ko Itna Bhi Na Aazmaa\n" +
-                                                        "Har Insaan Apni Hadd Mein Lajawaab Hi Hota Hai." };
+                                                "जब तिरछी नजरों से उन्होंने हमको देखा,\n" +
+                                                        "\n" +
+                                                        "तो हम मदहोश हो गए\n" +
+                                                        "\n" +
+                                                        "जब पता लगा उनकी नजरें ही तिरछी हैं,\n" +
+                                                        "\n" +
+                                                        "तो हम बेहोश हो गए !" ,
 
-    public  static String[] funnyArray = { "Ho Puri Dil Ki Har Khwahish Aapke\n" +
-                                            "Aur Mile Khushiyon Ka Jahan Aapko\n" +
-                                            "Agar Aap Mange Aasma Ka Ek Tara\n" +
-                                            "To Khuda Dede Sara Aasma Aapko." +
-                                            "Happy Birthday My Dear.",
+                                                "हम तो निकले थे तलाश-से-इश्क में,\n" +
+                                                        "\n" +
+                                                        "अपनी तनहाईयों से लड़ कर,\n" +
+                                                        "\n" +
+                                                        "मगर गर्मी बहुत थी बियर पी के वापिस आ गए !" ,
 
-                                            "Duniya Ki Khushiyan Aapko Mil Jayein\n" +
-                                                    "Apno Se Mil Ke Aapka Man Khil Jaye\n" +
-                                                    "Chehre Par Dukh Ki Kabhi Shikan Na Ho\n" +
-                                                    "Aapke Birthday Par Meri ShubKamnayein.",
+                                                "उसने जिस-जिस जगह रखे कदम,\n" +
+                                                        "\n" +
+                                                        "हमने वो जमीन चूम ली,\n" +
+                                                        "\n" +
+                                                        "और वो बेवफा घर आकर कहती है,\n" +
+                                                        "\n" +
+                                                        "आपका लड़का मिट्टी खाता है।" ,
 
-                                            "Aapke JanamDin Par Hum Dete Hain Ye Duaa\n" +
-                                                    "Khushiyaan Aapke Daaman Se Kabhi Na Hon Juda\n" +
-                                                    "Khuda Ki Rehmaton Mein Kabhi Kami Na Aaye\n" +
-                                                    "Aapke Honthho Ki Ye Muskurahat Na Jaaye." };
+                                                "किस किस का नाम लें अपनी बरबादी में,\n" +
+                                                        "\n" +
+                                                        "बहुत लोग आये थे दुआएं देने शादी में !" ,
 
-    public  static String[] godArray = { "Ho Puri Dil Ki Har Khwahish Aapke\n" +
-                                        "Aur Mile Khushiyon Ka Jahan Aapko\n" +
-                                        "Agar Aap Mange Aasma Ka Ek Tara\n" +
-                                        "To Khuda Dede Sara Aasma Aapko." +
-                                        "Happy Birthday My Dear.",
+                                                "जो लोग भी अपनी जिंदगी से परेशान हैं\uD83D\uDE14\n" +
+                                                        "\n" +
+                                                        "मुझे कल काली पहाड़ी पर आकर मिलें,\n" +
+                                                        "\n" +
+                                                        "वहीं से धक्का दे दूंगा !\uD83D\uDE02" ,
 
-                                        "Duniya Ki Khushiyan Aapko Mil Jayein\n" +
-                                                "Apno Se Mil Ke Aapka Man Khil Jaye\n" +
-                                                "Chehre Par Dukh Ki Kabhi Shikan Na Ho\n" +
-                                                "Aapke Birthday Par Meri ShubKamnayein.",
+                                                "गाली देने से इतनी लड़ाई नहीं होती,\n" +
+                                                        "\n" +
+                                                        "जितना Last seen देखकर होती है ! \uD83D\uDE1C"
 
-                                        "Aapke JanamDin Par Hum Dete Hain Ye Duaa\n" +
-                                                "Khushiyaan Aapke Daaman Se Kabhi Na Hon Juda\n" +
-                                                "Khuda Ki Rehmaton Mein Kabhi Kami Na Aaye\n" +
-                                                "Aapke Honthho Ki Ye Muskurahat Na Jaaye." };
+                                        };
 
-    public  static String[] hindiArray = { "Ho Puri Dil Ki Har Khwahish Aapke\n" +
-                                            "Aur Mile Khushiyon Ka Jahan Aapko\n" +
-                                            "Agar Aap Mange Aasma Ka Ek Tara\n" +
-                                            "To Khuda Dede Sara Aasma Aapko." +
-                                            "Happy Birthday My Dear.",
+    public static String[] bhagvanArray = { "राधा नाम के रस में तन मन भीग जाता है\u200B…\n" +
+                                                "\n" +
+                                                "\u200Bसुनकर राधा नाम तो साँवरिया भी रीझ जाता है\u200B…\n" +
+                                                "\n" +
+                                                "\u200Bचाहे भक्ति का मार्ग हो या दुखों का चक्रव्युह…\n" +
+                                                "\n" +
+                                                "राधा नाम लेने वाला\u200B हर परिस्थिती में जीत जाता है…\n" +
+                                                "\n" +
+                                                "प्रेम से बोलो राधे राधे\n" +
+                                                "\n" ,
 
-                                            "Duniya Ki Khushiyan Aapko Mil Jayein\n" +
-                                                    "Apno Se Mil Ke Aapka Man Khil Jaye\n" +
-                                                    "Chehre Par Dukh Ki Kabhi Shikan Na Ho\n" +
-                                                    "Aapke Birthday Par Meri ShubKamnayein.",
+                                                "जब भटक भटक कर हार गया…\n" +
+                                                        "\n" +
+                                                        "और कदम कदम पर ठुकराया गया तब…\n" +
+                                                        "\n" +
+                                                        "आपका ही द्वार नजर आया मुझको मेरे श्याम…\n" +
+                                                        "\n" +
+                                                        "तेरे ही चरणों में सुख पाया…\n" +
+                                                        "\n" +
+                                                        "जय श्री कृष्णा" ,
 
-                                            "Aapke JanamDin Par Hum Dete Hain Ye Duaa\n" +
-                                                    "Khushiyaan Aapke Daaman Se Kabhi Na Hon Juda\n" +
-                                                    "Khuda Ki Rehmaton Mein Kabhi Kami Na Aaye\n" +
-                                                    "Aapke Honthho Ki Ye Muskurahat Na Jaaye." };
+                                                "तुम हो तो मैं हूँ साँवरे दिल में मेरे तुम बसते हो…\n" +
+                                                        "\n" +
+                                                        "अब और कहीं नहीं जाना तुम्हें छोड़कर…\n" +
+                                                        "\n" +
+                                                        "इस जिंदगी की हर साँस में तुम हो साँवरे…\n" +
+                                                        "\n" +
+                                                        "जय श्री श्याम" ,
 
-    public  static String[] lifeArray = { "Ho Puri Dil Ki Har Khwahish Aapke\n" +
-                                        "Aur Mile Khushiyon Ka Jahan Aapko\n" +
-                                        "Agar Aap Mange Aasma Ka Ek Tara\n" +
-                                        "To Khuda Dede Sara Aasma Aapko." +
-                                        "Happy Birthday My Dear.",
+                                                "भगवान वह नहीं जो मन की मनोकामनाओं को…\n" +
+                                                        "\n" +
+                                                        "पूरा करता हो बल्कि भगवान वह है जो…\n" +
+                                                        "\n" +
+                                                        "मन से मनोकामनाओं का नाश करता हो…\n" +
+                                                        "\n" +
+                                                        "जय श्री राम जी" ,
 
-                                        "Duniya Ki Khushiyan Aapko Mil Jayein\n" +
-                                                "Apno Se Mil Ke Aapka Man Khil Jaye\n" +
-                                                "Chehre Par Dukh Ki Kabhi Shikan Na Ho\n" +
-                                                "Aapke Birthday Par Meri ShubKamnayein.",
+                                                "ईश्वर शायरी\n" +
+                                                        "\n" +
+                                                        "मेरे श्याम तुझे देखकर यह निगाह रुक जायेगी…\n" +
+                                                        "\n" +
+                                                        "खामोशी अब हर बात कह जायेगी…\n" +
+                                                        "\n" +
+                                                        "पढ़ लो अब इन आँखों में अपनी मोहब्बत…\n" +
+                                                        "\n" +
+                                                        "कसम से सारी कायनात इसे सुनने को थम जायेगी…\n" +
+                                                        "\n" +
+                                                        "जय श्री राधे किसन" ,
 
-                                        "Aapke JanamDin Par Hum Dete Hain Ye Duaa\n" +
-                                                "Khushiyaan Aapke Daaman Se Kabhi Na Hon Juda\n" +
-                                                "Khuda Ki Rehmaton Mein Kabhi Kami Na Aaye\n" +
-                                                "Aapke Honthho Ki Ye Muskurahat Na Jaaye." };
+                                                "ढूंढ लूँगा तुम्हें आँखें बन्द करके भी मेरे कन्हैया जी…\n" +
+                                                        "\n" +
+                                                        "रूहानियत वाले मोहब्बत को नजरों की जरूरत नहीं होती…\n" +
+                                                        "\n" +
+                                                        "जय श्री राधे कृष्णा" ,
 
-    public  static String[] yaadArray = { "Ho Puri Dil Ki Har Khwahish Aapke\n" +
-                                            "Aur Mile Khushiyon Ka Jahan Aapko\n" +
-                                            "Agar Aap Mange Aasma Ka Ek Tara\n" +
-                                            "To Khuda Dede Sara Aasma Aapko." +
-                                            "Happy Birthday My Dear.",
+                                                "हे मेरे भोले नाथ अगर मैं खामोश हूँ तो क्या…\n" +
+                                                        "\n" +
+                                                        "आप ही कभी आवाज दे दीजिए…\n" +
+                                                        "\n" +
+                                                        "मुझे भी तो अहसास हो जाए कि आप भी बेचैन हैं मेरे लिए…\n" +
+                                                        "\n" +
+                                                        "हर हर महादेव" ,
 
-                                            "Duniya Ki Khushiyan Aapko Mil Jayein\n" +
-                                                    "Apno Se Mil Ke Aapka Man Khil Jaye\n" +
-                                                    "Chehre Par Dukh Ki Kabhi Shikan Na Ho\n" +
-                                                    "Aapke Birthday Par Meri ShubKamnayein.",
+                                                "भर आयी आँखें जब मेरे कन्हैया जी का नाम आया…\n" +
+                                                        "\n" +
+                                                        "कन्हैया कभी मिलने नहीं आये पर बहुत काम आया…\n" +
+                                                        "\n" +
+                                                        "हमने कन्हैया की मोहब्बत में गुजारी ऐसी भी रातें कि…\n" +
+                                                        "\n" +
+                                                        "जब तक आँसू ना छलके तब तक ना दिल को आराम आया…\n" +
+                                                        "\n" +
+                                                        "जय श्री कृष्णा\n" +
+                                                        "\n"  ,
 
-                                            "Aapke JanamDin Par Hum Dete Hain Ye Duaa\n" +
-                                                    "Khushiyaan Aapke Daaman Se Kabhi Na Hon Juda\n" +
-                                                    "Khuda Ki Rehmaton Mein Kabhi Kami Na Aaye\n" +
-                                                    "Aapke Honthho Ki Ye Muskurahat Na Jaaye." };
+                                                "छोटी सी उंगली से पूरा गोवर्धन पर्वत उठाने वाले श्री कृष्ण…\n" +
+                                                        "\n" +
+                                                        "पर वो बाँसुरी को दोनों हाथों से पकड़ते हैं…\n" +
+                                                        "\n" +
+                                                        "बस दोनों में इतना ही अंतर है पराक्रम और प्रेम का…\n" +
+                                                        "\n" +
+                                                        "आपसी संबंधों में पराक्रम नहीं प्रेम दिखाइये…\n" +
+                                                        "\n" +
+                                                        "जय श्री राधेश्याम जी" ,
 
-    public  static String[] sadArray = { "Ho Puri Dil Ki Har Khwahish Aapke\n" +
-                                            "Aur Mile Khushiyon Ka Jahan Aapko\n" +
-                                            "Agar Aap Mange Aasma Ka Ek Tara\n" +
-                                            "To Khuda Dede Sara Aasma Aapko." +
-                                            "Happy Birthday My Dear.",
+                                                "फंसा हूँ जब भी किसी मुसीबत में…\n" +
+                                                        "\n" +
+                                                        "आपने बाहर निकाला है मेरे श्याम…\n" +
+                                                        "\n" +
+                                                        "कैसे भुल जाऊँ आपके एहसान साँवरिया…\n" +
+                                                        "\n" +
+                                                        "आपने अपने बच्चे की तरह मुझे पाला है मेरे श्याम…\n" +
+                                                        "\n" +
+                                                        "जय श्री राधे श्याम"
 
-                                            "Duniya Ki Khushiyan Aapko Mil Jayein\n" +
-                                                    "Apno Se Mil Ke Aapka Man Khil Jaye\n" +
-                                                    "Chehre Par Dukh Ki Kabhi Shikan Na Ho\n" +
-                                                    "Aapke Birthday Par Meri ShubKamnayein.",
+                                        };
 
-                                            "Aapke JanamDin Par Hum Dete Hain Ye Duaa\n" +
-                                                    "Khushiyaan Aapke Daaman Se Kabhi Na Hon Juda\n" +
-                                                    "Khuda Ki Rehmaton Mein Kabhi Kami Na Aaye\n" +
-                                                    "Aapke Honthho Ki Ye Muskurahat Na Jaaye." };
+    public static String[] preamArray = {"होती नहीं है मोहब्बत सूरत से,\n" +
+                                            "\n" +
+                                            "मोहब्बत तो दिल से होती है,\n" +
+                                            "\n" +
+                                            "सूरत उनकी खुद-ब-खुद लगती है प्यारी,\n" +
+                                            "\n" +
+                                            "कदर जिनकी दिल में होती है" ,
 
-    public static String[][] allShayariArray = { attitudeArray,birthdayArray,heartArray,
-                                                friendshipArray,funnyArray,godArray,
-                                                hindiArray,lifeArray,yaadArray,
-                                                sadArray};
+                                            "सब ने चाहा कि उसे हम ना मिलें,\n" +
+                                                    "\n" +
+                                                    "हम ने चाहा उसे गम ना मिलें,\n" +
+                                                    "\n" +
+                                                    "अगर ख़ुशी मिलती है उसे हम से जुदा होकर,\n" +
+                                                    "\n" +
+                                                    "तो दुआ है ख़ुदा से कि उसे कभी हम ना मिलें" ,
 
-    public static String[] emoji1Array = { "\uD83D\uDE00 \uD83D\uDE03 \uD83D\uDE04 \uD83D\uDE01 \uD83D\uDE06",
-                                            "\uD83D\uDE1B \uD83D\uDE0A \uD83D\uDE07 \uD83D\uDE42 \uD83D\uDE43",
-                                            "\uD83D\uDE12 \uD83D\uDE1E \uD83D\uDE14 \uD83D\uDE1F \uD83D\uDE15",
-                                            "\uD83D\uDE24 \uD83D\uDE20 \uD83D\uDE21 \uD83E\uDD2C \uD83E\uDD2F",
-                                            "\uD83D\uDE44 \uD83D\uDE2F \uD83D\uDE26 \uD83D\uDE27 \uD83D\uDE2E",
-                                            "\uD83E\uDD10 \uD83E\uDD74 \uD83E\uDD22 \uD83E\uDD2E \uD83E\uDD27",
-                                            "\uD83D\uDE08 \uD83D\uDC7F \uD83D\uDC79 \uD83D\uDC7A \uD83E\uDD21",
-                                            "\uD83E\uDD10 \uD83E\uDD74 \uD83E\uDD22 \uD83E\uDD2E \uD83E\uDD27",
-                                            "\uD83D\uDC7B \uD83D\uDC80 \uD83E\uDD16 \uD83C\uDF83 \uD83D\uDC7D"};
+                                            "खुशबू बनकर तेरी साँसों में शमा जायेंगे,\n" +
+                                                    "\n" +
+                                                    "सुकून बनकर तेरे दिल में उतर जायेंगे,\n" +
+                                                    "\n" +
+                                                    "महसूस करने की कोशिश तो कीजिये एक बार,\n" +
+                                                    "\n" +
+                                                    "दूर रहते हुए भी पास नजर आएंगे" ,
+
+                                            "चाहत हुई किसी से तो फिर बेइन्तेहाँ हुई,\n" +
+                                                    "\n" +
+                                                    "चाहा तो चाहतों की हद से गुजर गए,\n" +
+                                                    "\n" +
+                                                    "हमने खुदा से कुछ भी न माँगा मगर उसे,\n" +
+                                                    "\n" +
+                                                    "माँगा तो सिसकियों की भी हद से गुजर गये" ,
+
+                                            "शराब तो यूँ ही बदनाम है।\n" +
+                                                    "\n" +
+                                                    "हमने तो मोहब्बत के नशे में,\n" +
+                                                    "\n" +
+                                                    "लोगों को मरते हुए देखा है" ,
+
+                                            "मेरा हर लम्हा चुराया आपने,\n" +
+                                                    "\n" +
+                                                    "आँखों को एक ख्वाब देखाया आपने,\n" +
+                                                    "\n" +
+                                                    "हमें ज़िंदगी दी किसी और ने,\n" +
+                                                    "\n" +
+                                                    "पर प्यार में जीना सिखाया आपने" ,
+
+                                            "रात को रात का तोफा नहीं देते, \n" +
+                                                    "\n" +
+                                                    "दिल को जजबात का तोफा नहीं देते, \n" +
+                                                    "\n" +
+                                                    "देने को तो हम आप को चाँद भी दे दे, \n" +
+                                                    "\n" +
+                                                    "मगर चाँद को चाँद का तोफा नहीं देते" ,
+
+                                            "आपके साथ हे दिल का साहिल,\n" +
+                                                    "\n" +
+                                                    "आपका प्यार है दिल की मंजिल,\n" +
+                                                    "\n" +
+                                                    "आप रहे मेरी हर खुशी में शामिल,\n" +
+                                                    "\n" +
+                                                    "आप मिल जाओ तो इस दिल को,\n" +
+                                                    "\n" +
+                                                    "और नहीं कुछ करना हासिल" ,
+
+                                            "नजाकत ले के आँखों में,\n" +
+                                                    "\n" +
+                                                    "वो उनका देखना तौबा,\n" +
+                                                    "\n" +
+                                                    "या खुदा हम उन्हें देखें\n" +
+                                                    "\n" +
+                                                    "कि उनका देखना देखें" ,
+
+                                            "हर अल्फाज़ में एहसास लिखा जाता है,\n" +
+                                                    "\n" +
+                                                    "यहाँ पानी को भी प्यार लिखा जाता है,\n" +
+                                                    "\n" +
+                                                    "मेरे जज्बात से वक़िफ़ है मेरी कलाम भी,\n" +
+                                                    "\n" +
+                                                    "प्यार लिखो तो तेरा नाम लिखा जाता है"
+                                    };
+
+    public static String[] jivanArray = { "जिंदगी में प्यार सभी को होता हैं\n" +
+                                            "हर किसी के दिल में कोई शख्स बैठा होता हैं\n" +
+                                            "नसीब वाले होते हैं वो लोग\n" +
+                                            "जिनके जीवन में साथ उनका होता हैं" ,
+
+                                            "हर गलती की सजा देती हैं जिन्दगी\n" +
+                                                    "लेकिन साथ रहकर सहती भी हैं जिन्दगी\n" +
+                                                    "ख़ुशी हो या गम अपनाती हैं जिन्दगी\n" +
+                                                    "हर पल साथ निभाती हैं ज़िन्दगी" ,
+
+                                            "शान-ए-जिन्दगी वही\n" +
+                                                    "जब कोई तुमसे से दुखी नहीं\n" +
+                                                    "खुद भी हँसो और दुसरो को हंसाओ\n" +
+                                                    "इसी ताल में जिन्दगी जी जाओ" ,
+
+                                            "जीवन का सच कड़वा हैं\n" +
+                                                    "यहाँ कोई पल नहीं ठहरा हैं\n" +
+                                                    "आज जिव की रफ़्तार तेज हो गई\n" +
+                                                    "भगा दौड़ी में जिन्दगी कहीं खो गई हैं" ,
+
+                                            "आज हम है तेरे साथ\n" +
+                                                    "कम हमारी यादे होंगी तेरे पास\n" +
+                                                    "कभी पन्ने पलट लेना उन यादों के\n" +
+                                                    "वादा हैं तुझे बरस उठेंगे हम तेरी आँखों से" ,
+
+                                            "जीवन की राहो में हम साथ तेरा ढूंढते हैं\n" +
+                                                    "तेरे ख्यालो में हम अक्सर ही खो जाते हैं\n" +
+                                                    "कैसे जियेंगे इस जीवन में तेरे बिन\n" +
+                                                    "हम तो बिना तेरे साँस भी ना ले पाते हैं" ,
+
+                                            "उदास रातों को जब नींद नहीं आती\n" +
+                                                    "बीती जिन्दगी पलकों पर दस्तक दे जाती\n" +
+                                                    "आंसू की धार के साथ वो कहानी सुनाती हैं\n" +
+                                                    "बीते लम्हों को फिर आज वो आँखों में सजा जाती है" ,
+
+                                            "हर पल तुझे सोचना\n" +
+                                                    "ख्यालों में बस तुझे ढूँढना\n" +
+                                                    "धुंधला गया हैं जिन्दगी का हर एक पल\n" +
+                                                    "जब से तू बस गया हैं इन नैनो में\n" +
+                                                    "तेरे ही सपनो में सिमट गई हूँ मैं\n" +
+                                                    "अपनी ही जिन्दगी को भूल गई हूँ मैं" ,
+
+                                            "न कहो कुछ ऐसा कि कोई रूठ जाये\n" +
+                                                    "किसी अपने का साथ पल में छुट जाये\n" +
+                                                    "दौबारा मौका दे ना दे जिन्दगी\n" +
+                                                    "जियों ऐसा कि हर एक जिन्दगी से जुड़ जाये" ,
+
+                                            "हर पल पीछे छुटता जाता हैं\n" +
+                                                    "नया सवेरा सदा जिन्दगी कहलाता हैं\n" +
+                                                    "कभी अतीत की गहराइयों में मत जीना\n" +
+                                                    "जिन्दगी का मजा तो बस आज में आता हैं" ,
+
+                                            "जिन्दगी तो हार जीत का नाम हैं\n" +
+                                                    "हर पल ख़ुशी गम का पैगाम हैं\n" +
+                                                    "मत छोड़ना कभी हौसलों का हाथ\n" +
+                                                    "चलते रहना ही हैं जिंदगी का काम"
+
+                                    };
+
+    public static String[] mohabbteinArray = { "कोई काँटा न हो गुलाबों में,\n" +
+                                                "ऐसा मुमकिन है सिर्फ़ ख़्वाबों में,\n" +
+                                                "दिल को कैसे क़रार आता है,\n" +
+                                                "ये लिखा ही नहीं किताबों में…" ,
+
+                                                "मोहब्बत करने वाले\n" +
+                                                        "न जीते हैं और न ही मरते हैं,\n" +
+                                                        "फूलों की चाह में,\n" +
+                                                        "वो काटो से गुजरते हैं।" ,
+
+                                                "सच्ची मोहब्बत एक जेल के,\n" +
+                                                        "कैदी की तरह होती हैं,\n" +
+                                                        "जिसमें उम्र बीत भी जाए तो,\n" +
+                                                        "सज़ा पूरी नही होती.." ,
+
+                                                "उसे न चाहने की आदत,\n" +
+                                                        "उसे चाहने का जरिया बन गया ,\n" +
+                                                        "सख्त था मैं लड़का,\n" +
+                                                        "अब प्यार का दरिया बन गया।" ,
+
+                                                "ज़िंदगी से बड़ी कोई सज़ा नही,\n" +
+                                                        "जुर्म क्या हैं ये भी पता नही,\n" +
+                                                        "इतने हिस्से कर गया वो मेरे वजूद का,\n" +
+                                                        "जिसे जीवन भर भूलना एक सजा ए मौत से कम नहीं.." ,
+
+                                                "शुरू करते हैं फिरसे मोहब्बत,\n" +
+                                                        "तुम चले आओ,\n" +
+                                                        "थोड़ा हम बदल जाते हैं,\n" +
+                                                        "थोड़ा तुम बदल जाओ.." ,
+
+                                                "हम चाहकर भी तुमसे,\n" +
+                                                        "नाराज़ नही रह सकते,\n" +
+                                                        "क्योंकि तुम्हारी प्यारी सी मुस्कान में,\n" +
+                                                        "मेरी जान बस्ती हैं…" ,
+
+                                                "मेरी मोहब्बत का बस\n" +
+                                                        "एक ही उसूल हैं,\n" +
+                                                        "तू जैसी भी है,\n" +
+                                                        "मुझे कबूल हैं.." ,
+
+                                                "तुम साथ हो,\n" +
+                                                        "तो दुनिया अपनी सी लगती,\n" +
+                                                        "वरना सीने में साँसें भी,\n" +
+                                                        "पराई सी लगती हैं।" ,
+
+                                                "सब तुझे चाहते होंगे,\n" +
+                                                        "तेरा साथ पाने के लिए,\n" +
+                                                        "मैं तुझे चाहता हूँ,\n" +
+                                                        "तेरा साथ देने के लिए…" ,
+
+                                                "बर्बाद तो मैं भी नही बस,\n" +
+                                                        "आबाद होने की देरी हैं,\n" +
+                                                        "कमी तो कुछ नही बस,\n" +
+                                                        "तेरे आने की देरी हैं…"
+
+                                        };
+
+    public static String[] yadeArray = { "कभी कभी किसी अपने की इतनी \n" +
+                                            "याद आती है की रोने के लिए \n" +
+                                            "रात भी कम पड़ जाती है !!" ,
+
+                                            "न जाने क्यों जिंदगी काँटे की तरह चुभ \n" +
+                                                    "रही है , तेरी हर एक बात अब \n" +
+                                                    "बहुत याद आ रही है !!" ,
+
+                                            "दिल की हालात किसी से कही नही जाती ,\n" +
+                                                    "हमसे उनकी चाहत छुपाई नही जाती ,\n" +
+                                                    "बस एक याद बची है उनके चले \n" +
+                                                    "जाने के बाद ,वो भी दिल से \n" +
+                                                    "मिटायी नही जाती !!" ,
+
+                                            "उम्र के राह में रास्ते बदल जाते है ,वक्त की आंधी \n" +
+                                                    "में इंसान बदल जाते है ,सोचते है तुम्हें इतना \n" +
+                                                    "याद ना करे लेकिन आँख बंद करते \n" +
+                                                    "ही इरादे बदल जाते है !!" ,
+
+                                            "दूर रहते है मगर दिल से दुआ करते है हम , प्यार \n" +
+                                                    "का फ़र्ज़ अदा करते है हम , आपकी याद सदा \n" +
+                                                    "साथ रखते है हम , दिन हो या रात आपको \n" +
+                                                    "ही याद करते है हम !!" ,
+
+                                            "अब तो तुम्हारी यादें भी आँखों तक आती है , \n" +
+                                                    "बस थोड़ी देर ठहरती है , फ़िर बूंदे बन \n" +
+                                                    "के गिर जाती है !!" ,
+
+                                            "दुनिया की कभी ना परवाह करना दिल से ना कभी \n" +
+                                                    "हमें जुदा करना , जब आए तुम्हें याद हमारी \n" +
+                                                    "तो बस मिलने की दुआ करना !!!" ,
+
+                                            "तुम्हारीं याद मुझे बेचैन कर जाती है , हर जगह मुझे \n" +
+                                                    "बस तुम्हारी ही सूरत नजर आती है , जाने कैसा \n" +
+                                                    "कर दिया है मुझे तुम्हारी मोहब्बत ने ,अगर \n" +
+                                                    "कभी नींद आती है तो आँखे \n" +
+                                                    "रूठ जाती है !!" ,
+
+                                            "मिलते रहिए हाल -चाल पूछते रहिए ना जाने कब \n" +
+                                                    "कोई एक याद बन कर रह जाए !!\n" ,
+
+                                            "हर पल की ख़ुशी आपके हाथ में है , हमारी हर हँसी \n" +
+                                                    "आपके साथ में है , दूर रहकर भी आपको याद \n" +
+                                                    "करते है ,ज़रूर कोई प्यारी सी अदा आप में है !!" ,
+
+                                            "न कोई छत्रछाया है ,न कोई मोह माया है ,बारिश \n" +
+                                                    "से ज़्यादा तो मुझकों तेरी यादों ने भिगाया है !!"
+
+                                    };
+
+    public static String[] anayaArray = { "मेहनत के रंग से तू नई तस्वीर बना अपने गलती से सीख और कुछ अलग बना।" ,
+
+                                            "मेहनत के रंग में जो रंगते है यही सफलता से रंगीन होते है।" ,
+
+                                            "सफलता के रंग में कुछ इस तरह रंग की तुम्हारी दुनियां रंगीन हो जाय।" ,
+
+                                            "तूफ़ानो की औकात नहीं नापते, वरना उसमे तबाह होने में वक्त नहीं लगता।" ,
+
+                                            "आज कल ख्वाब थोड़े अधूरे से चल रहे हैं, पर जब पूरे होंगे तो आतिशबाजी होगी।" ,
+
+                                            "क्या है तेरा मुझसे नाता ये कैसे पता चलेगा और तुझसे क्या है मेरा रिश्ता ये मुझे पता नहीं चला।" ,
+
+                                            "लोग कहते हैं तुझसे मेरा रिश्ता क्या है, मैं कहता हूँ वैसा जो है तुम्हारे समझ के बाहर।" ,
+
+                                            "अभिमान किस बात का जब तुम ज्ञानी हो, और नफरत किस बात का जब तुम प्रेमी हो।" ,
+
+                                            "ये दुनिया का कुसूर है जो मुझे तुझसे जुदा किए जा रही है, वरना मैं तो तेरी मंज़िल का सौदागर था।" ,
+
+                                            "जा रही है ए ज़िन्दगी तू मुझसे दूर, तुझे मेरी याद नहीं आती क्या, मेरी तरह तेरी आंख नहीं भर आती।"
+
+                                    };
+
+    public static String[] rajnitiArray = { "चोर, बेईमान और भ्रष्ट नेताओं की क्यों करते हो बात,\n" +
+                                                "लोकतंत्र की ताकत है जनता में, दिखला दो इनकी औकात." ,
+
+                                                "मूल जानना बड़ा कठिन हैं नदियों का, वीरो का,\n" +
+                                                        "धनुष छोड़कर और गोत्र क्या होता हैं रणधीरो का,\n" +
+                                                        "पाते हैं सम्मान तपोबल से भूतल पर शूर,\n" +
+                                                        "“जाति-जाति” का शोर मचाते केवल कायर, क्रूर." ,
+
+                                                "जहाँ सच हैं, वहाँ पर हम खड़े हैं,\n" +
+                                                        "इसी खातिर आँखों में गड़े हैं." ,
+
+                                                "नेता की बातों में सच्चाई का अभाव होता है,\n" +
+                                                        "झूठ बोलना तो इनका स्वभाव होता हैं." ,
+
+                                                "नजर वाले को हिन्दू और मुसलमान दिखता हैं,\n" +
+                                                        "मैं अन्धा हूँ साहब, मुझे तो हर शख्स में इंसान दिखता हैं." ,
+
+                                                "मैं अपनी आँख पर चशमाँ चढ़ा कर देखता हूँ\n" +
+                                                        "हुनर ज़ितना हैं सारा आजमा कर देखता हूँ\n" +
+                                                        "नजर उतना ही आता हैं की ज़ितना वो दिखाता है\n" +
+                                                        "मैं छोटा हू मगर हर बार कद अपना बढ़ा कर देखता हूँ" ,
+
+                                                "मुझको तमीज की सीख देने वाले,\n" +
+                                                        "मैंने तेरे मुँह में कई जुबान देखा है,\n" +
+                                                        "और तू इतना दिखावा भी ना कर अपनी झूठी ईमानदारी का\n" +
+                                                        "मैंने कुछ कहने से पहले अपने गिरेबां में देखा है." ,
+
+                                                "सियासत की रंगत में ना डूबो इतना,\n" +
+                                                        "कि वीरों की शहादत भी नजर ना आए,\n" +
+                                                        "जरा सा याद कर लो अपने वायदे जुबान को,\n" +
+                                                        "गर तुम्हे अपनी जुबां का कहा याद आए." ,
+
+                                                "राजनीति में अब युवाओं को भी आना चाहिए,\n" +
+                                                        "देश को ईमानदारी का आईना दिखाना चाहिए.\n" +
+                                                        "युवा नेता शायरी" ,
+
+                                                "न मस्जिद को जानते हैं,\n" +
+                                                        "न शिवालो को जानते हैं,\n" +
+                                                        "जो भूखे पेट हैं,\n" +
+                                                        "वो सिर्फ निवालों को जानते हैं." ,
+
+                                                "क्या खोया, क्या पाया जग में,\n" +
+                                                        "मिलते और बिछुड़ते मग में,\n" +
+                                                        "मुझे किसी से नही शिकायत\n" +
+                                                        "यद्यपि छला गया पग-पग में." ,
+
+                                                "सवाल जहर का नहीं था, वो तो मैं पी गया,\n" +
+                                                        "तकलीफ लोगों को तब हुई, जब मैं फिर भी जी गया." ,
+
+                                                "हमारी रहनुमाओ में भला इतना गुमां कैसे,\n" +
+                                                        "हमारे जागने से, नींद में उनकी खलल कैसे.\n" +
+                                                        "\n"
+
+                                        };
+
+    public static String[][] allShayariArray = { shubhakamanayeArray,dostiArray,majedarArray,
+                                                bhagvanArray,preamArray,jivanArray,
+                                                mohabbteinArray,yadeArray,anayaArray,
+                                                rajnitiArray};
+
+    public static String[] emoji1Array = { "\uD83D\uDE00 \uD83D\uDE03 \uD83D\uDE04 \uD83D\uDE01 \uD83D\uDE06" ,
+                                            "\uD83D\uDE1B \uD83D\uDE0A \uD83D\uDE07 \uD83D\uDE42 \uD83D\uDE43" ,
+                                            "\uD83D\uDE12 \uD83D\uDE1E \uD83D\uDE14 \uD83D\uDE1F \uD83D\uDE15" ,
+                                "\uD83D\uDE24 \uD83D\uDE20 \uD83D\uDE21 \uD83E\uDD2C \uD83E\uDD2F" ,
+                                "\uD83D\uDE44 \uD83D\uDE2F \uD83D\uDE26 \uD83D\uDE27 \uD83D\uDE2E" ,
+                                "\uD83E\uDD10 \uD83E\uDD74 \uD83E\uDD22 \uD83E\uDD2E \uD83E\uDD27" ,
+                                "\uD83D\uDE08 \uD83D\uDC7F \uD83D\uDC79 \uD83D\uDC7A \uD83E\uDD21" ,
+                                "\uD83E\uDD10 \uD83E\uDD74 \uD83E\uDD22 \uD83E\uDD2E \uD83E\uDD27" ,
+                                "\uD83D\uDC7B \uD83D\uDC80 \uD83E\uDD16 \uD83C\uDF83 \uD83D\uDC7D" ,
+                                "\uD83E\uDD10 \uD83E\uDD74 \uD83E\uDD22 \uD83E\uDD2E \uD83E\uDD27" ,
+                                "\uD83D\uDE08 \uD83D\uDC7F \uD83D\uDC79 \uD83D\uDC7A \uD83E\uDD21" ,
+                                "\uD83D\uDC7B \uD83D\uDC80 \uD83E\uDD16 \uD83C\uDF83 \uD83D\uDC7D" ,
+                                "\uD83D\uDC76 \uD83D\uDC67 \uD83E\uDDD2 \uD83D\uDC66 \uD83D\uDC69" ,
+                                "\uD83E\uDDD1 \uD83D\uDC68 \uD83D\uDC69\u200D\uD83E\uDDB0 \uD83D\uDC68\u200D\uD83E\uDDB0 " ,
+                                "\uD83D\uDC68\u200D\uD83C\uDFEB \uD83E\uDDD1\u200D\uD83C\uDFED \uD83D\uDC68\u200D\uD83C\uDFED" ,
+                                "\uD83E\uDDD1\u200D\uD83D\uDD27 \uD83D\uDC69\u200D\uD83D\uDD2C \uD83E\uDDD1\u200D\uD83D\uDD2C" ,
+                                "\uD83D\uDC69\u200D✈\uD83E\uDDD1\u200D✈\uD83D\uDC68\u200D✈\uD83D\uDC69\u200D\uD83D\uDE80" ,
+                                "\uD83D\uDC70\u200D♂\uD83E\uDD35\u200D♀\uD83E\uDD35 " ,
+                                "\uD83E\uDD36 \uD83E\uDDD1\u200D\uD83C\uDF84 \uD83C\uDF85 \uD83E\uDDD9\u200D♀" ,
+                                "\uD83E\uDDDF\u200D♂\uD83E\uDDDE\u200D♀\uD83E\uDDDE \uD83E\uDDDE\u200D♂\uD83E\uDDDC\u200D♀"
+                            };
 
     public static String[] emoji2Array = { "\uD83D\uDC76 \uD83D\uDC67 \uD83E\uDDD2 \uD83D\uDC66 \uD83D\uDC69",
-                                            "\uD83E\uDDD1 \uD83D\uDC68 \uD83D\uDC69\u200D\uD83E\uDDB0 \uD83D\uDC68\u200D\uD83E\uDDB0 ",
-                                            "\uD83D\uDC68\u200D\uD83C\uDFEB \uD83E\uDDD1\u200D\uD83C\uDFED \uD83D\uDC68\u200D\uD83C\uDFED",
-                                            "\uD83D\uDC76 \uD83D\uDC67 \uD83E\uDDD2 \uD83D\uDC66 \uD83D\uDC69",
-                                            "\uD83E\uDDD1\u200D\uD83D\uDD27 \uD83D\uDC69\u200D\uD83D\uDD2C \uD83E\uDDD1\u200D\uD83D\uDD2C",
-                                            "\uD83D\uDC69\u200D✈️ \uD83E\uDDD1\u200D✈️ \uD83D\uDC68\u200D✈️ \uD83D\uDC69\u200D\uD83D\uDE80",
-                                            "\uD83D\uDC70\u200D♂️ \uD83E\uDD35\u200D♀️ \uD83E\uDD35 ",
-                                            "\uD83E\uDD36 \uD83E\uDDD1\u200D\uD83C\uDF84 \uD83C\uDF85 \uD83E\uDDD9\u200D♀️",
-                                            "\uD83E\uDDDF\u200D♂️ \uD83E\uDDDE\u200D♀️ \uD83E\uDDDE \uD83E\uDDDE\u200D♂️ \uD83E\uDDDC\u200D♀️ "};
+                            "\uD83E\uDDD1 \uD83D\uDC68 \uD83D\uDC69\u200D\uD83E\uDDB0 \uD83D\uDC68\u200D\uD83E\uDDB0 ",
+                            "\uD83D\uDC68\u200D\uD83C\uDFEB \uD83E\uDDD1\u200D\uD83C\uDFED \uD83D\uDC68\u200D\uD83C\uDFED",
+                            "\uD83D\uDC76 \uD83D\uDC67 \uD83E\uDDD2 \uD83D\uDC66 \uD83D\uDC69",
+                            "\uD83E\uDDD1\u200D\uD83D\uDD27 \uD83D\uDC69\u200D\uD83D\uDD2C \uD83E\uDDD1\u200D\uD83D\uDD2C",
+                            "\uD83D\uDC69\u200D✈️ \uD83E\uDDD1\u200D✈️ \uD83D\uDC68\u200D✈️ \uD83D\uDC69\u200D\uD83D\uDE80",
+                            "\uD83D\uDC70\u200D♂️ \uD83E\uDD35\u200D♀️ \uD83E\uDD35 ",
+                            "\uD83E\uDD36 \uD83E\uDDD1\u200D\uD83C\uDF84 \uD83C\uDF85 \uD83E\uDDD9\u200D♀️",
+                            "\uD83E\uDDDF\u200D♂️ \uD83E\uDDDE\u200D♀️ \uD83E\uDDDE \uD83E\uDDDE\u200D♂️ \uD83E\uDDDC\u200D♀️ " ,
+                            "\uD83E\uDD10 \uD83E\uDD74 \uD83E\uDD22 \uD83E\uDD2E \uD83E\uDD27",
+                            "\uD83D\uDE08 \uD83D\uDC7F \uD83D\uDC79 \uD83D\uDC7A \uD83E\uDD21",
+                            "\uD83D\uDC7B \uD83D\uDC80 \uD83E\uDD16 \uD83C\uDF83 \uD83D\uDC7D",
+                            "\uD83D\uDC76 \uD83D\uDC67 \uD83E\uDDD2 \uD83D\uDC66 \uD83D\uDC69",
+                            "\uD83E\uDDD1 \uD83D\uDC68 \uD83D\uDC69\u200D\uD83E\uDDB0 \uD83D\uDC68\u200D\uD83E\uDDB0 ",
+                            "\uD83D\uDC68\u200D\uD83C\uDFEB \uD83E\uDDD1\u200D\uD83C\uDFED \uD83D\uDC68\u200D\uD83C\uDFED",
+                            "\uD83E\uDDD1\u200D\uD83D\uDD27 \uD83D\uDC69\u200D\uD83D\uDD2C \uD83E\uDDD1\u200D\uD83D\uDD2C",
+                            "\uD83D\uDC69\u200D✈\uD83E\uDDD1\u200D✈\uD83D\uDC68\u200D✈\uD83D\uDC69\u200D\uD83D\uDE80",
+                            "\uD83D\uDC70\u200D♂\uD83E\uDD35\u200D♀\uD83E\uDD35 ",
+                            "\uD83E\uDD36 \uD83E\uDDD1\u200D\uD83C\uDF84 \uD83C\uDF85 \uD83E\uDDD9\u200D♀",
+                            "\uD83E\uDDDF\u200D♂\uD83E\uDDDE\u200D♀\uD83E\uDDDE \uD83E\uDDDE\u200D♂\uD83E\uDDDC\u200D♀",
+
+                    };
 
     public static String[] emojiArray = { "\uD83D\uDE03 \uD83D\uDE04 \uD83D\uDE01 \uD83D\uDE06 \uD83D\uDE05",
-                                            "\uD83D\uDE1B \uD83D\uDE0A \uD83D\uDE07 \uD83D\uDE42 \uD83D\uDE43",
-                                            "\uD83D\uDE12 \uD83D\uDE1E \uD83D\uDE14 \uD83D\uDE1F \uD83D\uDE15",
-                                            "\uD83D\uDE24 \uD83D\uDE20 \uD83D\uDE21 \uD83E\uDD2C \uD83E\uDD2F",
-                                            "\uD83D\uDE44 \uD83D\uDE2F \uD83D\uDE26 \uD83D\uDE27 \uD83D\uDE2E",
-                                            "\uD83E\uDD10 \uD83E\uDD74 \uD83E\uDD22 \uD83E\uDD2E \uD83E\uDD27",
-                                            "\uD83D\uDE08 \uD83D\uDC7F \uD83D\uDC79 \uD83D\uDC7A \uD83E\uDD21",
-                                            "\uD83D\uDC7B \uD83D\uDC80 \uD83E\uDD16 \uD83C\uDF83 \uD83D\uDC7D",
-                                            "\uD83D\uDC76 \uD83D\uDC67 \uD83E\uDDD2 \uD83D\uDC66 \uD83D\uDC69",
-                                            "\uD83E\uDDD1 \uD83D\uDC68 \uD83D\uDC69\u200D\uD83E\uDDB0 \uD83D\uDC68\u200D\uD83E\uDDB0 ",
-                                            "\uD83D\uDC68\u200D\uD83C\uDFEB \uD83E\uDDD1\u200D\uD83C\uDFED \uD83D\uDC68\u200D\uD83C\uDFED",
-                                            "\uD83E\uDDD1\u200D\uD83D\uDD27 \uD83D\uDC69\u200D\uD83D\uDD2C \uD83E\uDDD1\u200D\uD83D\uDD2C",
-                                            "\uD83D\uDC69\u200D✈\uD83E\uDDD1\u200D✈\uD83D\uDC68\u200D✈\uD83D\uDC69\u200D\uD83D\uDE80",
-                                            "\uD83D\uDC70\u200D♂\uD83E\uDD35\u200D♀\uD83E\uDD35 ",
-                                            "\uD83E\uDD36 \uD83E\uDDD1\u200D\uD83C\uDF84 \uD83C\uDF85 \uD83E\uDDD9\u200D♀",
-                                            "\uD83E\uDDDF\u200D♂\uD83E\uDDDE\u200D♀\uD83E\uDDDE \uD83E\uDDDE\u200D♂\uD83E\uDDDC\u200D♀",
-                                            "Without Emoji"};
+                        "\uD83D\uDE1B \uD83D\uDE0A \uD83D\uDE07 \uD83D\uDE42 \uD83D\uDE43",
+                        "\uD83D\uDE12 \uD83D\uDE1E \uD83D\uDE14 \uD83D\uDE1F \uD83D\uDE15",
+                        "\uD83D\uDE24 \uD83D\uDE20 \uD83D\uDE21 \uD83E\uDD2C \uD83E\uDD2F",
+                        "\uD83D\uDE44 \uD83D\uDE2F \uD83D\uDE26 \uD83D\uDE27 \uD83D\uDE2E",
+                        "\uD83E\uDD10 \uD83E\uDD74 \uD83E\uDD22 \uD83E\uDD2E \uD83E\uDD27",
+                        "\uD83D\uDE08 \uD83D\uDC7F \uD83D\uDC79 \uD83D\uDC7A \uD83E\uDD21",
+                        "\uD83D\uDC7B \uD83D\uDC80 \uD83E\uDD16 \uD83C\uDF83 \uD83D\uDC7D",
+                        "\uD83D\uDC76 \uD83D\uDC67 \uD83E\uDDD2 \uD83D\uDC66 \uD83D\uDC69",
+                        "\uD83E\uDDD1 \uD83D\uDC68 \uD83D\uDC69\u200D\uD83E\uDDB0 \uD83D\uDC68\u200D\uD83E\uDDB0 ",
+                        "\uD83D\uDC68\u200D\uD83C\uDFEB \uD83E\uDDD1\u200D\uD83C\uDFED \uD83D\uDC68\u200D\uD83C\uDFED",
+                        "\uD83E\uDDD1\u200D\uD83D\uDD27 \uD83D\uDC69\u200D\uD83D\uDD2C \uD83E\uDDD1\u200D\uD83D\uDD2C",
+                        "\uD83D\uDC69\u200D✈\uD83E\uDDD1\u200D✈\uD83D\uDC68\u200D✈\uD83D\uDC69\u200D\uD83D\uDE80",
+                        "\uD83D\uDC70\u200D♂\uD83E\uDD35\u200D♀\uD83E\uDD35 ",
+                        "\uD83E\uDD36 \uD83E\uDDD1\u200D\uD83C\uDF84 \uD83C\uDF85 \uD83E\uDDD9\u200D♀",
+                        "\uD83E\uDDDF\u200D♂\uD83E\uDDDE\u200D♀\uD83E\uDDDE \uD83E\uDDDE\u200D♂\uD83E\uDDDC\u200D♀",
+                        "\uD83D\uDE24 \uD83D\uDE20 \uD83D\uDE21 \uD83E\uDD2C \uD83E\uDD2F",
+                        "\uD83D\uDE44 \uD83D\uDE2F \uD83D\uDE26 \uD83D\uDE27 \uD83D\uDE2E",
+                        "\uD83E\uDD10 \uD83E\uDD74 \uD83E\uDD22 \uD83E\uDD2E \uD83E\uDD27",
+                        "\uD83D\uDE08 \uD83D\uDC7F \uD83D\uDC79 \uD83D\uDC7A \uD83E\uDD21",
+                        "Without Emoji"
+
+    };
+
     public  static int[] colorArray = { R.color.black, R.color.purple_200, R.color.purple_500,
                                         R.color.purple_700, R.color.blue, R.color.green,
                                         R.color.grey, R.color.navy, R.color.pink,
